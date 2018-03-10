@@ -14,8 +14,8 @@
 // * folded conversations
 //   (e.g. https://github.com/scikit-learn/scikit-learn/pull/9012#pullrequestreview-42934289
 //   215 items not shown)
-// * "Large diffs are not rendered by default
-// * e.g. https://github.com/scikit-learn/scikit-learn/pull/9517/files
+// * large diffs, which are hidden by default, e.g. the doc/glossary.rst diff
+//   in https://github.com/scikit-learn/scikit-learn/pull/9517/files
 
 (function(){
     'use strict';
