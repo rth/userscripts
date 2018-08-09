@@ -22,7 +22,7 @@
     // console.log('github-expand-all.user.js loaded');
     var opened = false;
 
-        function open_outdated_diff_comments() {
+    function open_outdated_diff_comments() {
         // console.log('Begin open_outdated_diffs');
         var outdated_diff_elements = document.getElementsByClassName("outdated-comment");
         // supporting old github PRs (before "Start Review" feature)
