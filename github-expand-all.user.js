@@ -25,11 +25,6 @@
     function open_outdated_diff_comments() {
         // console.log('Begin open_outdated_diffs');
         var outdated_diff_elements = document.getElementsByClassName("outdated-comment");
-        // supporting old github PRs (before "Start Review" feature)
-        var legacy_outdated_diff_elements = document.getElementsByClassName("outdated-diff-comment-container");
-        // transform HTMLCollection objects into arrays and concatenate
-        outdated_diff_elements = Array.from(outdated_diff_elements);
-        outdated_diff_elements = outdated_diff_elements.concat(Array.from(legacy_outdated_diff_elements));
         console.log('outdated_diff_elements.length: ' + outdated_diff_elements.length);
         for (var i = 0; i < outdated_diff_elements.length; i++) {
             var element = outdated_diff_elements[i];
