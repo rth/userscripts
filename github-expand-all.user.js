@@ -29,10 +29,10 @@
         for (var i = 0; i < outdated_diff_elements.length; i++) {
             var element = outdated_diff_elements[i];
             if (!opened) {
-                element.classList.add('open');
+                element.setAttribute('open', '');
             }
             else {
-                element.classList.remove('open');
+                element.removeAttribute('open');
             }
         }
         opened = !opened;
